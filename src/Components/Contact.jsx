@@ -35,13 +35,13 @@ const Contact = () => {
         <div className="row">
           <div className="col-md-6 col-10 mx-auto">
             <form onSubmit={formSubmit}>
-              <div class="mb-3">
+              <div className="mb-3">
                 <label for="exampleFormControlInput1" class="text-light form-label">
                   FullName
                 </label>
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   id="exampleFormControlInput1"
                   name="fullname"
                   value={data.fullname}
@@ -55,7 +55,7 @@ const Contact = () => {
                 </label>
                 <input
                   type="number"
-                  class="form-control"
+                  className="form-control"
                   id="exampleFormControlInput1"
                   name="phone"
                   value={data.phone}
@@ -69,7 +69,7 @@ const Contact = () => {
                 </label>
                 <input
                   type="email"
-                  class="form-control"
+                  className="form-control"
                   id="exampleFormControlInput1"
                   name="email"
                   value={data.email}
@@ -83,7 +83,7 @@ const Contact = () => {
                   Message
                 </label>
                 <textarea
-                  class="form-control"
+                  className="form-control"
                   id="exampleFormControlTextarea1"
                   rows="3"
                   name="msg"
@@ -93,7 +93,7 @@ const Contact = () => {
               </div>
 
               <div class="col-12">
-                <button class="btn btn-outline-primary" type="submit">
+                <button className="btn btn-outline-primary" type="submit">
                   Submit form
                 </button>
               </div>
