@@ -1,5 +1,5 @@
 import React from "react";
-import web from "../images/img2.svg";
+// import web from "../images/img2.svg";
 import { NavLink } from "react-router-dom";
 
 const Commom = (props) => {
@@ -16,7 +16,7 @@ const Commom = (props) => {
                     <strong className="brand-name"> Hassaan's IT </strong>
                   </h1>
                   <h2 className="my-3">
-                    We are the team of talented developer making websites
+                    Love to Build web and native application using <strong className="brand-name"> React </strong>
                   </h2>
                   <div className="mt-3">
                     <NavLink to={props.visit} className="btn-get-started ">
